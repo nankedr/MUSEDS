@@ -1,0 +1,20 @@
+源码文件
+main2014.c
+main_M.c
+main_dynamic.c
+
+生成可执行文件
+test_2014
+test_main
+test_dynamic
+
+修改源码后，执行make，重新生成可执行文件
+make clean 删除*.o及可执行文件
+
+程序先建立索引，再输入查询词查询。
+对于test_2014及test_main,
+quit为退出程序
+
+对于test_dynamic,
+_quit为退出
+_delete为删除指令,之后输入整数id值,删除相应文档
